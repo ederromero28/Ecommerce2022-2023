@@ -21,12 +21,12 @@ document.querySelector("#joyas").addEventListener("click", e => {
 
     //INGRESE UN NUMERO DE WHATSAPP VALIDO AQUI:
     let telefono2 = "51918610299";
-    let mensaje = document.querySelector("#asunto").value;
+    let asunto = document.querySelector("#asunto").value;
 
     let url = `https://api.whatsapp.com/send?phone=${telefono2}&text=
-    Hola, me interesa este producto.%0A
-    Indique su mensaje%0A
-    ${mensaje}`;
+    Hola, me interesa el producto%0A
+    con código "${asunto}".%0A
+    `;
 
     window.open(url);
 });
