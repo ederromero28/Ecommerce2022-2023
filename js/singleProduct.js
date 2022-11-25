@@ -25,7 +25,7 @@ document.querySelector("#joyas").addEventListener("click", e => {
 
     let url = `https://api.whatsapp.com/send?phone=${telefono2}&text=
     Hola, me interesa el producto%0A
-    con código "${asunto}".%0A
+    con código "${asunto}".
     `;
 
     window.open(url);
