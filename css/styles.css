@@ -607,7 +607,7 @@ footer .copyright{
         display: none;
     }
     #hero{
-        height: 50vh;
+        height: 45vh;
         padding: 0 80px;
         background-position: top 30% right 30%;
     }#feature{
@@ -656,14 +656,14 @@ footer .copyright{
     #hero{
         padding: 0 20px;
         background-position: 55%;
-        width: 97%;
+        width: 100%;
         margin-left: 0px;
     }
     #feature{
         justify-content: space-between;
     }
     #feature .fe-box{
-        width: 155px;
+        width: 154px;
     }
     #product1 .pro{
         width: 100%;
